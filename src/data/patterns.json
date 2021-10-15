@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Wzór na drogę w ruchu jednostajnie prostoliniowym",
+    "pattern": "s=V*t",
+    "patternWithUnits": "s[t]=V[m/s]*t[s]",
+    "legend": [
+      {
+        "variable": "s[m]",
+        "description": "Droga",
+        "primitive": true
+      },
+      {
+        "variable": "V[m/s]",
+        "description": "Prędkość",
+        "primitive": false
+      },
+      {
+        "variable": "t[s]",
+        "description": "czas",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Prędkość w ruchu jednostajnym prostoliniowym",
+    "pattern": "V=s/t",
+    "patternWithUnits": "V[m/s]=s[m]/t[s]",
+    "legend": [
+      {
+        "variable": "s[m]",
+        "description": "Droga",
+        "primitive": true
+      },
+      {
+        "variable": "V[m/s]",
+        "description": "Prędkość",
+        "primitive": false
+      },
+      {
+        "variable": "t[s]",
+        "description": "czas",
+        "primitive": true
+      }
+    ]
+  }
+]
