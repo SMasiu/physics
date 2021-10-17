@@ -42,5 +42,394 @@
         "primitive": true
       }
     ]
+  },
+  {
+    "title": "Wzór na przyspieszenie",
+    "pattern": "a=Δv/Δt",
+    "patternWithUnits": "a[m/s^2]=Δv[m/s]/Δt[s]",
+    "legend": [
+      {
+        "variable": "a[m/s^2]",
+        "description": "Przyspieszenie",
+        "primitive": false
+      },
+      {
+        "variable": "Δv[m/s]",
+        "description": "Zmiana prędkości",
+        "primitive": false
+      },
+      {
+        "variable": "Δt[s]",
+        "description": "Czas zmiany prędkości",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Prędkość w ruchu jednostajnie przyspieszonym",
+    "pattern": "v=v0+a*t",
+    "patternWithUnits": "v[m/s]=v0[m/s]+a[m/s^2]*t[s]",
+    "legend": [
+      {
+        "variable": "v[m/s]",
+        "description": "Prędkość",
+        "primitive": false
+      },
+      {
+        "variable": "v0[m/s]",
+        "description": "Prędkość początkowa",
+        "primitive": false
+      },
+      {
+        "variable": "a[m/s^2]",
+        "description": "Przyspieszenie",
+        "primitive": false
+      },
+      {
+        "variable": "t[s]",
+        "description": "Czas",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Wzór na siłe",
+    "pattern": "F=m*a",
+    "patternWithUnits": "F[N]=m[kg]*a[m/s^2]",
+    "legend": [
+      {
+        "variable": "F[N]",
+        "description": "Siła",
+        "primitive": false
+      },
+      {
+        "variable": "m[kg]",
+        "description": "Masa",
+        "primitive": true
+      },
+      {
+        "variable": "a[m/s^2]",
+        "description": "Przyspieszenie",
+        "primitive": false
+      }
+    ]
+  },
+  {
+    "title": "Siła ciężkość (ciężar)",
+    "pattern": "Fg=m*g",
+    "patternWithUnits": "Fg[N]=m[kg]*g[9,81 m/s^2]",
+    "legend": [
+      {
+        "variable": "Fg[N]",
+        "description": "Ciężar",
+        "primitive": false
+      },
+      {
+        "variable": "m[kg]",
+        "description": "Masa",
+        "primitive": true
+      },
+      {
+        "variable": "g[9,81 m/s^2]",
+        "description": "Przyspieszenie ziemskie - STAŁA",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Wzór na pęd ciała",
+    "pattern": "p=m*v",
+    "patternWithUnits": "p[kg*(m/s)]=m[kg]*v[m/s]",
+    "legend": [
+      {
+        "variable": "p[kg*(m/s)]",
+        "description": "Pęd ciała",
+        "primitive": false
+      },
+      {
+        "variable": "m[kg]",
+        "description": "Masa",
+        "primitive": true
+      },
+      {
+        "variable": "v[m/s]",
+        "description": "Prędkość",
+        "primitive": false
+      }
+    ]
+  },
+  {
+    "title": "Wzór na pracę mechaniczną",
+    "pattern": "W=F*s",
+    "patternWithUnits": "W[J]=F[N]*s[m]",
+    "legend": [
+      {
+        "variable": "W[J]",
+        "description": "Praca mechaniczna",
+        "primitive": false
+      },
+      {
+        "variable": "F[N]",
+        "description": "Siła",
+        "primitive": false
+      },
+      {
+        "variable": "s[m]",
+        "description": "Droga",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Wzór na moc mechaniczną",
+    "pattern": "P=W/t",
+    "patternWithUnits": "P[W]=W[J]/t[s]",
+    "legend": [
+      {
+        "variable": "P[W]",
+        "description": "Moc mechaniczna",
+        "primitive": false
+      },
+      {
+        "variable": "W[J]",
+        "description": "Praca",
+        "primitive": false
+      },
+      {
+        "variable": "t[s]",
+        "description": "Czas",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Wzór energii kinetycznej",
+    "pattern": "Ek=(m*v^2)/2",
+    "patternWithUnits": "Ek[J]=(m[kg]*v^2[m/s])/2",
+    "legend": [
+      {
+        "variable": "Ek[J]",
+        "description": "Energia kinetyczna",
+        "primitive": false
+      },
+      {
+        "variable": "m[kg]",
+        "description": "Masa",
+        "primitive": true
+      },
+      {
+        "variable": "v^2[m/s]",
+        "description": "Kwadrat prędkości",
+        "primitive": false
+      }
+    ]
+  },
+  {
+    "title": "Energia potencjalna ciężkości",
+    "pattern": "Ep=m*g*h",
+    "patternWithUnits": "Ep[J]=m[kg]*g[9,81 m/s^2]*h[m]",
+    "legend": [
+      {
+        "variable": "Ep[J]",
+        "description": "Energia potencjalna ciężkości",
+        "primitive": false
+      },
+      {
+        "variable": "m[kg]",
+        "description": "Masa",
+        "primitive": true
+      },
+      {
+        "variable": "g[9,81 m/s^2",
+        "description": "Przyspieszenie ziemskie - STAŁA",
+        "primitive": true
+      },
+      {
+        "variable": "h[m]",
+        "description": "Wysokość",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Wzór na ciepło",
+    "pattern": "Q=cw*m*ΔT",
+    "patternWithUnits": "Q[J]=cw[J/(kg*°C)]*m[kg]*ΔT[°C]",
+    "legend": [
+      {
+        "variable": "Q[J]",
+        "description": "Ciepło",
+        "primitive": false
+      },
+      {
+        "variable": "m[kg]",
+        "description": "Masa",
+        "primitive": true
+      },
+      {
+        "variable": "cw[J/(kg*°C)]",
+        "description": "Ciepło właściwe",
+        "primitive": false
+      },
+      {
+        "variable": "ΔT[°C]",
+        "description": "Zmiana temperatury",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "wzór na ciśnienie",
+    "pattern": "p=F/S",
+    "patternWithUnits": "p[Pa]=F[N]/S[m^2]",
+    "legend": [
+      {
+        "variable": "p[Pa]",
+        "description": "Ciśnienie",
+        "primitive": false
+      },
+      {
+        "variable": "F[N]",
+        "description": "Siła nacisku",
+        "primitive": false
+      },
+      {
+        "variable": "S[m^2]",
+        "description": "Pole powierzchni",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Wzór na gęstość ciała",
+    "pattern": "ρ=m/V",
+    "patternWithUnits": "ρ[kg/m^3]=m[kg]/V[m^3]",
+    "legend": [
+      {
+        "variable": "ρ[kg/m^3]",
+        "description": "Gęstość ciała",
+        "primitive": false
+      },
+      {
+        "variable": "m[kg]",
+        "description": "Masa",
+        "primitive": true
+      },
+      {
+        "variable": "V[m^3]",
+        "description": "Objętość",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Wzór na ciśnienie hydrostatyczne",
+    "pattern": "p=ρ*g*h",
+    "patternWithUnits": "p[Pa]=ρ[kg/m^3]*g[9,81 m/s^2]*h[m]",
+    "legend": [
+      {
+        "variable": "p[Pa]",
+        "description": "Ciśnienie hydrostatyczne",
+        "primitive": false
+      },
+      {
+        "variable": "ρ[kg/m^3]",
+        "description": "gęstość",
+        "primitive": false
+      },
+      {
+        "variable": "g[9,81 m/s^2]",
+        "description": "Przyspieszenie ziemskie - STAŁA",
+        "primitive": true
+      },
+      {
+        "variable": "h[m]",
+        "description": "Wysokość",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Częstotliwość drgań",
+    "pattern": "f=1/T",
+    "patternWithUnits": "f[Hz]=1/T[s]",
+    "legend": [
+      {
+        "variable": "f[Hz]",
+        "description": "Częstotliwość drgań",
+        "primitive": false
+      },
+      {
+        "variable": "T[s]",
+        "description": "Okres drgań",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Wzór na długość fali",
+    "pattern": "λ=v/f",
+    "patternWithUnits": "λ[m]=v[m/s]/f[Hz]",
+    "legend": [
+      {
+        "variable": "λ[m]",
+        "description": "Długość fali",
+        "primitive": false
+      },
+      {
+        "variable": "f[Hz]",
+        "description": "Częstotliwość drgań",
+        "primitive": false
+      },
+      {
+        "variable": "v[m/s]",
+        "description": "Prędkość fali",
+        "primitive": false
+      }
+    ]
+  },
+  {
+    "title": "Wzór na natęzenie prądu",
+    "pattern": "I=q/t",
+    "patternWithUnits": "I[A]=q[C]/t[s]",
+    "legend": [
+      {
+        "variable": "I[A]",
+        "description": "Natężenie",
+        "primitive": false
+      },
+      {
+        "variable": "q[C]",
+        "description": "Ładunek elektryczny",
+        "primitive": true
+      },
+      {
+        "variable": "t[s]",
+        "description": "Czas przepływu",
+        "primitive": true
+      }
+    ]
+  },
+  {
+    "title": "Wzór na opór elektryczny",
+    "pattern": "R=U/I",
+    "patternWithUnits": "R[Ω]=U[V]/I[A]",
+    "legend": [
+      {
+        "variable": "R[Ω]",
+        "description": "Opór elektryczny",
+        "primitive": false
+      },
+      {
+        "variable": "U[V]",
+        "description": "Napięcie elektyczne",
+        "primitive": true
+      },
+      {
+        "variable": "I[A]",
+        "description": "Natężenie prądu",
+        "primitive": true
+      }
+    ]
   }
 ]
